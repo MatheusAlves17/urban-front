@@ -1,0 +1,44 @@
+.container {
+    width: 15.625rem;
+    height: 2.813rem;
+
+    margin: 0.625rem 0;
+
+    border-radius: 0.75rem;
+    background-color: var(--primary_01);
+
+    display: flex;
+    // align-self: center;
+    align-items: center;
+    justify-content: center;
+  
+    border: none;
+    outline: none;
+    appearance: none;
+  
+    transition: 0.4s ease-in-out;
+  
+    &:hover{
+      background-color: var(--primary_02);
+    }
+  
+    .loading{
+      animation: bounceAnimation 0.8s ease infinite;
+    }
+
+    span{
+        font-weight: 500;
+        color: var(--text_white);
+    }
+}
+
+@keyframes bounceAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+
+    }
+}

@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "../styles/Home.module.scss";
 import { Input } from "../components/Input/Input";
+import { Button } from "../components/Button/Button";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function Home() {
           </div>
           <div className={styles.formContent}>
             <Input label="E-mail" placeholder="Informe o e-mail" type="email" />
+          <Button>Entrar</Button>
           </div>
         </form>
 
