@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary_01: #5784E6;
+    --primary_02: #0B1957;
+
+    --neutro_01: #2E2E2E;
+
+    --background_blue: #F1F7F7;
+    --background_white: #F8F8F8;
+
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --red_01: #E65768;
+    --green_01: #7CE657;
+    --yellow_01: #F5C400;
+
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--background_white);
+}
+
+body,
+input,
+textarea,
+select,
+button {
+    font: 400 1rem "Josefin Sans", sans-serif;
+    ;
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
